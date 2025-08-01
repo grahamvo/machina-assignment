@@ -1,0 +1,18 @@
+.dataPlotContainer {
+    margin-top: 20px;
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: var(--mantine-font-size-sm);
+        font-weight: 300;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    rect {
+        fill: var(--mantine-color-orange-4);
+    }
+}

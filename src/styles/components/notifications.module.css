@@ -1,0 +1,16 @@
+.root {
+  background-color: var(--notification-color, var(--mantine-primary-color-filled)) !important;
+
+  &::before {
+    background-color: var(--mantine-color-white) !important;
+  }
+}
+
+.description,
+.title {
+  color: var(--mantine-color-white) !important;
+}
+
+.closeButton {
+  color: var(--mantine-color-white) !important;
+}
